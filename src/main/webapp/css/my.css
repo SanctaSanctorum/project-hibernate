@@ -1,0 +1,96 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+th, td {
+    background-color: #96D4D4;
+}
+
+th:first-child {
+    width: 30px;
+}
+
+th:nth-child(2) {
+    width: 100px;
+}
+
+th:nth-child(3) {
+    width: 175px;
+}
+
+th:nth-child(4) {
+    width: 75px;
+}
+
+th:nth-child(5) {
+    width: 75px;
+}
+
+th:nth-child(6) {
+    width: 50px;
+}
+
+th:nth-child(7) {
+    width: 75px;
+}
+
+th:nth-child(8) {
+    width: 50px;
+}
+
+th:nth-child(9) {
+    width: 50px;
+}
+
+th:nth-child(10) {
+    width: 50px;
+}
+
+.pgn-bnt-styled {
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    line-height: 2;
+}
+
+.button_delete {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.img_delete, .img_edit, .img_save {
+    padding: 5px;
+}
+
+.create_form {
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    line-height: 2;
+}
+
+.create {
+    max-width: 275px;
+}
+
+.create__group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create__group:not(:last-child) {
+    margin: 0 0 10px
+}
+
+.create__group:last-child {
+    margin: 25px 0 0;
+    justify-content: flex-end;
+}
+
+.create__input, .create__select {
+    width: 150px;
+}
